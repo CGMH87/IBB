@@ -1,0 +1,18 @@
+Option Explicit
+
+Sub Aufgabe_2()
+Dim zahl1 As Integer, zahl2 As Integer, wert As Integer, i As Integer
+
+zahl1 = InputBox("zahl1", "zahl1", Default)
+zahl2 = InputBox("zahl2", "zahl2", Default)
+
+wert = 1
+
+For i = 0 To zahl2
+    wert = wert * zahl1
+    i = i + 1
+Next
+
+Debug.Print "wert: " & wert
+
+End Sub
