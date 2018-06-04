@@ -1,4 +1,4 @@
 # IBB
 IBB Umschulung
 
-This ist just something to have.
+Dies kann gemeinsamen Projekten dienen. =)
